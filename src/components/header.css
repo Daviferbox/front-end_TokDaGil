@@ -1,9 +1,9 @@
 .teste {
-    height: 150px;
+    width: 100%;
     background-color: #C88A8A;
     display: flex;
     align-items: center;
-    
+
 }
 
 .Fundo {
@@ -12,7 +12,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 30px; /* controla o quão perto da borda */
+    padding: 0 30px;
+    /* controla o quão perto da borda */
 }
 
 .nome {
@@ -32,10 +33,10 @@
 }
 
 .botoes span {
-    transition: 
-    transform 0.35s ease,
-    background-color 0.25s ease,
-     opacity 0.3s ease;
+    transition:
+        transform 0.35s ease,
+        background-color 0.25s ease,
+        opacity 0.3s ease;
 }
 
 .botoes span:hover {
@@ -45,7 +46,6 @@
 }
 
 
-.botoes div:hover{
+.botoes div:hover {
     scale: 1.1;
 }
-
