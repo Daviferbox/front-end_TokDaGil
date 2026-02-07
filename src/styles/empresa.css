@@ -1,0 +1,44 @@
+.empresa-container {
+  min-height: 100vh;
+  background-color: #fdeee4;
+  display: flex;
+  justify-content: center;
+  padding: 80px 40px;
+}
+
+.empresa-conteudo {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.empresa-card {
+  flex: 1;
+  max-width: 320px;
+  text-align: center;
+}
+
+.empresa-imagem {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  border: 14px solid #2b0057;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 30px auto;
+}
+
+.empresa-texto-imagem {
+  font-size: 18px;
+  color: #000;
+}
+
+.empresa-card p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #000;
+}

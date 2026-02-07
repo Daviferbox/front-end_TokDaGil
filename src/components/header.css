@@ -30,16 +30,17 @@
     font-size: 26px;
     font-family: 'Playfair Display', serif;
     color: #1E1E1E;
+    cursor: pointer;
 }
 
-.botoes span {
+.botoes div{
     transition:
         transform 0.35s ease,
         background-color 0.25s ease,
         opacity 0.3s ease;
 }
 
-.botoes span:hover {
+.botoes div:hover {
     opacity: 0.6;
     transform: scale(1.1);
     text-shadow: 1px 1px 5px #1E1E1E;
